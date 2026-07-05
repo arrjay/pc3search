@@ -1,0 +1,7 @@
+Notes on Capture
+----------------
+
+This was done inside a Windows XP SP3 VM, using USBPcap - https://github.com/desowin/usbpcap/releases/tag/1.5.3.0
+Weirdly, all the packets are smaller, I suspect this was due to topology differences vs host capture.
+
+Data is still meaningfully there, but the non-empty frames start at 28 (so filter with frame.len > 27)
