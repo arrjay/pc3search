@@ -1,0 +1,5 @@
+notes on capture
+----------------
+
+started VM, started capture (evt 6), then used SPICE to connect device (through evt 66)
+mcrew session started through end of capture - only launch (which powered on device) and shut down (and turned off device).

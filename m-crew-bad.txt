@@ -1,0 +1,6 @@
+notes on capture
+----------------
+
+VM was running, device was attached (from ok capture) - up to packet 6
+started M-Crew for CMT-M333NT and it turned on the device, then complained it was not compatible and quit
+device was still running when capture stopped
