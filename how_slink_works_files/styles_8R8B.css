@@ -1,0 +1,242 @@
+html,body {
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:14px;
+        line-height:14pt;
+        color:#000000;
+        background-image:url("bg2.png");
+}
+table   {
+        font-size:14px;
+        line-height:14pt;
+}
+table.form {
+        font-size:14px;
+        line-height:14pt;
+        padding:0px;
+        border-spacing:0px;
+        width:750px;
+}
+table.formwide {
+        font-size:14px;
+        line-height:14pt;
+        padding:0px;
+        border-spacing:0px;
+        width:1520px;
+}
+table.form720 {
+        font-size:14px;
+        line-height:14pt;
+        padding:4px;
+        border-spacing:0px;
+        width:720px;
+}
+td.form {
+        padding:0px;
+        text-align:center;
+        vertical-align:top;
+}
+td.formleft {
+        padding:0px;
+        text-align:left;
+        vertical-align:top;
+}
+table.hund {
+        font-size:14;
+        line-height:14pt;
+        padding:0px;
+        border-spacing:0px;
+        width:100%;
+}
+table.hund8 {
+        font-size:14;
+        line-height:14pt;
+        padding:0px;
+        border-spacing:8px;
+        width:100%;
+}
+td.hund {
+        padding:0px;
+        text-align:center;
+        vertical-align:top;
+}
+table.right {
+        font-size:10px;
+        line-height:12px;
+        padding:0px;
+        border-spacing:0px;
+        width:100%;
+}
+td.center {
+        padding:1px;
+        text-align:center;
+        vertical-align:bottom;
+}
+td.right {
+        padding:1px;
+        text-align:right;
+        vertical-align:bottom;
+}
+tr.num:hover {
+        background-color:#f5f5f5;
+}
+td.num  {
+        padding:1px;
+        text-align:center;
+        border-bottom:1px solid #ddd;
+}
+td.numbig  {
+        font-size:30px;
+        padding:8px;
+        text-align:center;
+        border-bottom:1px solid #ddd;
+}
+td.numbigr  {
+        font-size:30px;
+        padding:8px;
+        text-align:right;
+        border-bottom:1px solid #ddd;
+}
+td.numwm  {
+        padding:1px;
+        text-align:right;
+        border-bottom:1px solid #ddd;
+        padding-right:50px;
+}
+td.numwm20  {
+        padding:1px;
+        text-align:right;
+        border-bottom:1px solid #ddd;
+        padding-right:20px;
+}
+td.numl {
+        padding:1px;
+        text-align:left;
+        border-bottom:1px solid #ddd;
+}
+td.numr {
+        padding:1px;
+        text-align:right;
+        border-bottom:1px solid #ddd;
+}
+th.num  {
+        padding:2px;
+        text-align:center;
+        border-bottom:1px solid #ddd;
+        background-color:#E0E0E0;
+        color:black;
+}
+.legend {
+        font-size:10px;
+        line-height:11px;
+        background-color:#E0E0E0;
+        padding:0px;
+        border-spacing:0px;
+        margin-left:auto;
+        margin-right:auto;
+        width:750px;
+}
+td.legend {
+        text-align:center;
+}
+.font2  {
+        font-size:12;
+        line-height:normal;
+}
+.font11 {
+        font-size:11px;
+        line-height:12px;
+}
+.font12 {
+        font-size:12px;
+        line-height:17px;
+}
+.font22 {
+        font-size:22;
+        line-height:31pt;
+}
+h1      {
+        text-align:center;
+        font-size:28;
+        line-height:34pt;
+}
+h2      {
+        text-align:center;
+        font-size:22;
+}
+h3      {
+        text-align:center;
+        font-size:16;
+}
+a:link  {
+        color:#1010A0;
+        text-decoration:none;
+}
+a:visited {
+        color:#400060;
+        text-decoration:none;
+}
+a.dark:link {
+        color:#101030;
+        text-decoration:none;
+}
+a.dark:visited {
+        color:#101010;
+        text-decoration:none;
+}
+a:active {
+        color:#801010;
+        text-decoration:underline;
+}
+a:hover {
+        color:#707070;
+        text-decoration:underline;
+        text-shadow:0px 0px 8px #0808C0;
+}
+a:focus {
+        color:#404040;
+        text-decoration:underline;
+}
+div.center {
+        width:750px;
+        margin-left:auto;
+        margin-right:auto;
+}
+div.center100 {
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+}
+div.right {
+        width:100%;
+        text-align:right;
+        font-size:10px;
+}
+hr      {
+        border:none;
+        height:1px;
+        color:#808080;
+        background-color:#808080;
+}
+.flussrechts {
+        float:left;
+        margin:0 25px 15px 0;
+}
+
+sup,sub {
+        line-height:0px;
+        font-size:65%;
+}
+
+#superpos {
+        margin-top:-30px;
+        margin-left:10px;
+        font-weight:bold;
+        color:#FFFFFF;
+}
+
+/* margins:
+   Eine Angabe: für alle 4 Abstände gilt derselbe Wert
+   Zwei Angaben: 1. Wert für margin-top und margin-bottom, 2. Wert für margin-left und margin-right
+   Drei Angaben: 1. Wert für margin-top, 2. Wert für margin-left und margin-right, 3. Wert für margin-bottom
+   Vier Angaben: 1. Wert für margin-top, 2. Wert für margin-right, 3. Wert für margin-bottom, 4. Wert für margin-left
+*/
