@@ -37,3 +37,37 @@ How Many Volts is i2c Running At?
 ---------------------------------
 
 Something like half a volt? .6? On Pin 5, and I saw a max of .343 On Pin 1. I may be limited by how quickly my multimeter can pick this up, so let's assume it's a 3.3v device given the other voltages present.
+
+Interfacing a Bus Pirate (v3)
+-----------------------------
+
+The pins of interest are 1, 3, 5, 6 - I used https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all to go through the hookup and initial setup using a terminal. Pin 6 is connected to VPU for the pullup resistors. https://www.digitalpeer.com/blog/sniffing-i2c-traffic-with-a-bus-pirate better details the terminal setup, but I've included a session startup here. Bus Pirate should start in HiZ.
+
+```
+HiZ>m
+1. HiZ
+2. 1-WIRE
+3. UART
+4. I2C
+5. SPI
+6. 2WIRE
+7. 3WIRE
+8. LCD
+9. DIO
+x. exit(without change)
+
+(1)>4
+Set speed:
+ 1. ~5KHz
+ 2. ~50KHz
+ 3. ~100KHz
+ 4. ~400KHz
+
+(1)>3
+Ready
+I2C>(2)
+Sniffer
+Any key to exit
+```
+
+This should then output any i2c traffic on the bus as sets of hex bits.

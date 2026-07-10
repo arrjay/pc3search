@@ -1,0 +1,4 @@
+notes on capture
+----------------
+
+VM was running, device was connected, started i2c capture (see nodisc-i2c.txt) and started M-Crew. Turned off player with program exit. There was no disc in the drive.

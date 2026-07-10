@@ -1,0 +1,5 @@
+notes on capture
+----------------
+
+VM was running, device was attached (from ok capture) - up to packet 6
+started M-Crew for and didn't have the PC3 plugged in, closed after abort message
